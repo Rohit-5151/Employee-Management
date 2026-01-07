@@ -1,16 +1,42 @@
-# React + Vite
+Employee Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React.js Employee Management Dashboard that allows users to manage employee records with features like authentication, CRUD operations, search, filters, image upload, and local storage persistence.
 
-Currently, two official plugins are available:
+Authentication
+  -Mock login system
+  -Protected dashboard route
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Dashboard Overview
+  -Total number of employees
+  -Active vs Inactive employee count
 
-## React Compiler
+Employee Management
+  -Add new employee
+  -Edit existing employee
+  -Delete employee (with confirmation)
+  -Print employee list
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Employee Details
+  -Full Name
+  -Gender
+  -Date of Birth
+  -State (dropdown)
+  -Profile Image (with preview)
+  -Active / Inactive status
 
-## Expanding the ESLint configuration
+Search & Filters
+  -Search employees by name
+  -Filter by gender
+  -Filter by active/inactive status
+  -Combined filters supported
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Data Persistence
+  -Employee data stored in localStorage
+  -Data persists even after page refresh
+
+Tech Stack
+  -React.js
+  -JavaScript (ES6+)
+  -Tailwind CSS
+  -UUID
+  -LocalStorage API
